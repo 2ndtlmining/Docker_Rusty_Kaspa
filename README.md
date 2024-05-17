@@ -29,3 +29,8 @@ Clone the repository by running the following command in your terminal:
 
 7. If the container is running copy the container and then you can review the logs:
 ```docker logs -f <container_name>```
+
+8. You can Exec into the container if you wanted to use the CLI wallet and poke around
+
+```docker exec -it <container-name-or-id> <shell-executable>```
+- I like to use bash for the <shell-executable>
