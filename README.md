@@ -1,6 +1,6 @@
-Docker_Rusty_Kaspa
+# Docker_Rusty_Kaspa
 
-Note: Image atm is a little fat, need to work on trimming it down, but for now it works
+## Note: Image atm is a little fat, need to work on trimming it down, but for now it works
 
 
 1. Cloning the Repository
@@ -27,3 +27,5 @@ Clone the repository by running the following command in your terminal:
 
 ```docker ps```
 
+7. If the container is running copy the container and then you can review the logs:
+```docker logs -f <container_name>```
